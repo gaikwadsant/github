@@ -1,0 +1,14 @@
+
+ot@ip-172-31-24-240 opt]# bash
+[root@ip-172-31-24-240 opt]# myname="Santosh"
+[root@ip-172-31-24-240 opt]# echo $myname
+Santosh
+[root@ip-172-31-24-240 opt]# bash
+[root@ip-172-31-24-240 opt]# echo $myname
+
+[root@ip-172-31-24-240 opt]# export myname="SANTOSH"
+[root@ip-172-31-24-240 opt]# bash
+[root@ip-172-31-24-240 opt]# echo $myname
+SANTOSH
+[root@ip-172-31-24-240 opt]#
+
