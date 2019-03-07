@@ -1,0 +1,8 @@
+  567  ls -lrt
+  568  vi unirank.csv create CSV file
+  569  head unirank.csv display first 10 record from csv file
+  570  head -n 25 unirank.csv display first 25 records from csv file
+  571  grep -i "university" unirank.csv  grep -i command search university word in csv file and display all records from csv file
+  572  wc -l unirank.csv  display total number of rows
+  574  grep -i "university" unirank.csv | wc -l   display count of total university words
+
