@@ -1,0 +1,36 @@
+[root@ip-172-31-42-112 testdemo]# vi headfiledemo.txt
+[root@ip-172-31-42-112 testdemo]# git add headfiledemo.txt
+[root@ip-172-31-42-112 testdemo]# git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#       new file:   headfiledemo.txt
+#
+[root@ip-172-31-42-112 testdemo]# git commit -m"Head commands"
+[master 482aa07] Head commands
+ Committer: root <root@ip-172-31-42-112.us-east-2.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 8 insertions(+)
+ create mode 100644 headfiledemo.txt
+[root@ip-172-31-42-112 testdemo]# git push -u origin master
+Username for 'https://github.com': gaikwadsant
+Password for 'https://gaikwadsant@github.com':
+Counting objects: 4, done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 568 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/gaikwadsant/github.git
+   5862f19..482aa07  master -> master
+Branch master set up to track remote branch master from origin.
+
